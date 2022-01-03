@@ -1,6 +1,14 @@
+html{
+  background: #212529;
+  filter: invert(1) hue-rotate(300deg)
+}
+html img {
+  filter: invert(1) hue-rotate(60deg)
+}
 html, body {
   overflow-x: hidden;
 }
+
 
 /**
  * Enable smooth scrolling on the whole document
@@ -93,6 +101,7 @@ html {
 }
 
 img.avatar {
+  width: 70%;
   border-radius: 30px;
 }
 
